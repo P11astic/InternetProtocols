@@ -35,7 +35,7 @@ def get_usr_friends(id ,token):
     return ans
 
 def main():
-    token = "vk1.a.s8jIAzKI4H0jWGwys98Xp2qGh3rnoLoQAo_4tW7SL84MVFITAeYWgX3s553rEPFzbseZBa8Q7s5J-60WdJ5Ht_bkMl9WtLjjgx5hRblzcpFa61h8I_0V2sR5OeWMm1bSYCbGgV70TdByzZzU1xIqkxiPLccRuaojxTVfR3vnTD1KWpqY1lZnyOJxgwjSYqgK&expires_in=86400"
+    token = 'Place your token here'
     page = str(input('Please enter the link on user\'s page or user\'s VK id: '))
     id = get_usr_int_id(page)
     print('User\'s name: ' + get_usr_name(token=token, id=id))
